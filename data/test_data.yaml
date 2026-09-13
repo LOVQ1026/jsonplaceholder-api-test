@@ -1,0 +1,13 @@
+user_detail_cases:
+  - case_name: "查询用户1-正常"
+    user_id: 1
+    expected_code: 200
+    expected_name: "Leanne Graham"
+  - case_name: "查询用户2-正常"
+    user_id: 2
+    expected_code: 200
+    expected_name: "Ervin Howell"
+  - case_name: "查询用户不存在"
+    user_id: 9999
+    expected_code: 404
+    expected_name: null
